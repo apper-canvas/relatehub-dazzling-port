@@ -1,11 +1,11 @@
-import { useEffect } from "react";
+import React, { useEffect } from "react";
 import { ToastContainer } from "react-toastify";
 import { router } from "./router";
 import { RouterProvider } from "react-router-dom";
 
 function App() {
   useEffect(() => {
-
+    // Component initialization logic can be added here if needed
   }, []);
   return (
     <>
