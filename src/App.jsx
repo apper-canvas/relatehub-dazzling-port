@@ -1,8 +1,12 @@
+import { useEffect } from "react";
 import { ToastContainer } from "react-toastify";
 import { router } from "./router";
 import { RouterProvider } from "react-router-dom";
 
 function App() {
+  useEffect(() => {
+
+  }, []);
   return (
     <>
       <RouterProvider router={router} />
